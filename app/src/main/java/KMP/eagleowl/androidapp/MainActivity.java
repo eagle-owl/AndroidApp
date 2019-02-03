@@ -19,7 +19,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void forceCrash(View view) {
-        throw new RuntimeException("This is a crash");
-    }
 }
